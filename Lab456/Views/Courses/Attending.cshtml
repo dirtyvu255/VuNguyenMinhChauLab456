@@ -1,9 +1,10 @@
 ﻿@model  Lab456.ViewModels.CoursesViewModel
 @{
-    ViewBag.Title = "Home Page";
+    ViewBag.Title = "Attending";
+    Layout = "~/Views/Shared/_Layout.cshtml";
 }
-<link href="~/Content/Site.css" rel="stylesheet" />
-<div class="row">
+
+<h2>Atending</h2>
     <ul class="course">
         @foreach (var course in Model.UpcomingCourses)
         {
@@ -35,7 +36,7 @@
             </li>
         }
     </ul>
-</div>
+
 
 @section scripts
 {
