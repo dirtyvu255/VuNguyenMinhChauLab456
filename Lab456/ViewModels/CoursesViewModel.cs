@@ -11,6 +11,5 @@ namespace Lab456.ViewModels
     {
         public IEnumerable<Course> UpcommingCourses { get; set; }
         public bool ShowAction { get; set; }
-        public IQueryable<Course> UpcomingCourses { get; internal set; }
     }
 }

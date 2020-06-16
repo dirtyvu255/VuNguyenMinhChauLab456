@@ -7,13 +7,13 @@ namespace Lab456.Migrations
     using System.Resources;
     
     [GeneratedCode("EntityFramework.Migrations", "6.1.3-40302")]
-    public sealed partial class AddFollowingsTable : IMigrationMetadata
+    public sealed partial class AddIsCanceledColumnToCourse : IMigrationMetadata
     {
-        private readonly ResourceManager Resources = new ResourceManager(typeof(AddFollowingsTable));
+        private readonly ResourceManager Resources = new ResourceManager(typeof(AddIsCanceledColumnToCourse));
         
         string IMigrationMetadata.Id
         {
-            get { return "202006090401012_AddFollowingsTable"; }
+            get { return "202006160149258_AddIsCanceledColumnToCourse"; }
         }
         
         string IMigrationMetadata.Source
